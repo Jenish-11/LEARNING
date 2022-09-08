@@ -1,0 +1,16 @@
+        div{
+            width: 500px; height: 500px;
+            border: 1px solid rgb(8, 8, 8);
+            padding-left: 10px;
+            padding-top: 10px;
+            margin: 100px;
+        }
+        b{
+            color: rgb(3, 3, 3); border: 1px solid black;
+            margin-left: 20px;
+            padding-left: 10px;
+            padding: 10px;
+
+            
+            
+        }
