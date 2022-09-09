@@ -1,0 +1,18 @@
+.main{
+    width: 500px; height: 500px;
+    border: 1px solid rgb(8, 8, 8);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: 100px;
+}
+.sub{
+    color: rgb(3, 3, 3); border: 1px solid black;
+    
+}
+body{position: relative;
+
+}
+b{position: absolute;
+right: 0;
+bottom: 0;}

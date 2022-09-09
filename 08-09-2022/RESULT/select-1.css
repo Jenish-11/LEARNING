@@ -1,0 +1,11 @@
+.parent{color: blue;font-size: 80px;}
+.parent .h1{color: rgb(111, 165, 10); font-size: 60px; text-align: center;text-decoration:dotted;}
+.p-parent-1{color: black; font-size: 60px; text-align: center;text-decoration:dotted;}
+.p-parent-1 .child-1-head{color: rgb(52, 10, 107);font-size: 50px; }
+.parent1 .child-1-head1{color: rgb(235, 14, 14); font-size: 60px; text-align: center;text-decoration:dotted;}
+.heading3{color: brown; font-size: 60px;}
+.parent .heading3{color: blueviolet; font-size: 50px;}
+.parent-1 .heading3{color: rgb(207, 122, 17);}
+.parent .parent-1 .heading3{color: black;}
+.par4 .heading3{color: aqua;}
+

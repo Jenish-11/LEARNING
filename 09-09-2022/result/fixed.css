@@ -1,0 +1,10 @@
+.head2{
+    position:sticky; 
+    background-color: blue; 
+    height: 100px;
+    width: 10%;
+    right: 0;
+    top: 0;}
+    body{
+        position: relative;
+    }
