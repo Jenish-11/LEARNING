@@ -1,0 +1,67 @@
+.one{
+    border: 1px solid aqua;
+    height: 150px;
+    width: 170px;
+    margin: 10px;
+   
+}
+.two{
+    border: 1px solid aqua;
+    height: 150px;
+    width: 170px;
+    margin: 10px;
+    position: absolute;
+    top: 0px;
+    left: 208px;
+}
+.parent{
+    width: 45%;
+    height: 52%;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    margin:auto;
+    margin-top: 14%;
+
+    
+   
+    
+}
+.three{
+    height: 150px;
+    width: 170px;
+    border: 1px solid aqua;
+    margin: 10px;
+    position: absolute;
+    top: 0%;
+    left: 416;
+}
+.four{
+    height: 150px;
+    width: 170px;
+    border: 1px solid aqua;
+    margin: 10px;
+    
+}
+.five{
+    height: 150px;
+    width: 170px;
+    border: 1px solid aqua;
+    margin: 10px;
+    position: absolute;
+    top: 160px;
+    left: 208px;;
+}
+.six{
+    height: 150px;
+    width: 170px;
+    border: 1px solid aqua;
+    margin: 10px;
+    position: absolute;
+    top: 160px;
+    left: 416px;
+}
+.body{
+    border: 1px solid aqua;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,55 @@
+.parent{
+    width: 45%;
+    height: 66%;
+    border: 3px solid rgb(80, 78, 78);
+    margin: auto;
+    margin-top: 9%;
+    position: relative;
+}
+.one{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(226, 110, 43);
+    position: absolute;
+    border: 1px solid rgb(139, 136, 136);
+}
+.two{
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid rgb(139, 136, 136);
+
+}
+.three{
+    width: 130px;
+    height: 130px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid rgb(139, 136, 136);
+
+}
+.four{
+    width: 130px;
+    height: 130px;
+    background-color:aqua;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgb(139, 136, 136);
+}
+.five{
+    width: 130px;
+    height: 130px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(139, 136, 136);
+
+}
