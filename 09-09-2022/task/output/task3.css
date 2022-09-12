@@ -1,4 +1,4 @@
-.one{
+/*.one{
     border: 1px solid aqua;
     height: 150px;
     width: 170px;
@@ -39,6 +39,7 @@
     height: 150px;
     width: 170px;
     border: 1px solid aqua;
+    top: 160px;
     margin: 10px;
     
 }
@@ -59,9 +60,27 @@
     position: absolute;
     top: 160px;
     left: 416px;
-}
-.body{
-    border: 1px solid aqua;
+}*/
+.parent{
     width: 100%;
     height: 100%;
+    border: 1px solid rgb(255, 253, 253);
+    /* position: relative; */
+    /* margin:auto;
+    margin-top: 14%; */
+
 }
+.row1{
+    display: inline-block;
+    width: 29%;
+    height: 33%;
+    border: 1px solid aqua;
+    margin: 2%;
+}
+/* .row2{
+    display: inline-block;
+    width: 25%;
+    height: 33%;
+    border: 1px solid black;
+    margin: 10px;
+} */
