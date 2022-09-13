@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    padding:100px;
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    border: 5px solid white;
+    
+}
+nav{
+    padding: 20px;
+    background-color: darkgray;
+    text-align: center;
+    border: 5px solid white;
+
+
+}
+section{
+   padding:150px ;
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    border: 5px solid white;
+}
+footer{
+    padding:20px;
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    border: 5px solid white;
+}
