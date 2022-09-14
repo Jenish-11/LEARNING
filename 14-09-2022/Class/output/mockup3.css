@@ -1,0 +1,59 @@
+header{
+    background-color: palevioletred;
+    
+}
+a{
+    margin: 6%;
+    text-decoration: none;
+    color: rgb(5, 5, 27);
+    font-size: 26px;
+    
+
+}
+.menu{
+    padding: 3%;
+}
+h1{
+text-align: center;
+}
+
+body{
+    margin: 1% 10%;
+    background-color: gray;
+}
+h2{
+    padding: 0%;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    width: 70%;
+    display: inline-block;
+    margin: 1% 0%;
+    padding: 0% 2%;
+    padding-bottom: 15%;
+    
+    
+}
+.related{
+    background-color: rgb(231, 25, 162);
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 1% 1%;
+    vertical-align: top;
+    padding-bottom: 11%;
+}
+footer{
+    background-color: brown;
+    padding: 1% 6%;
+    margin: 0% 0%;
+}
+.content{
+    margin-right: -58px;
+}
+ul{
+    padding-top: 29%;
+
+}
+

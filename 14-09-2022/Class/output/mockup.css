@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+header{
+    padding:55px;
+    background-color: rgb(51, 49, 49);
+    border: 5px solid white;
+    
+}
+nav{
+    padding: 10px;
+    background-color: darkgray;
+    border: 5px solid white;
+
+
+}
+section{
+    /* padding:150px ; */
+    background-color: rgb(153, 153, 153);
+    border: 5px solid white;
+}
+.slideshow{
+    padding: 120px;
+    background-color: rgb(121, 117, 117);
+    margin: 10px;
+
+}
+.column{
+    width: 32.4%;
+    height: 32.33%;
+    margin-left: 1%;
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+}
+
+footer{
+    padding:20px;
+    background-color: rgb(51, 49, 49);
+    border: 5px solid white;
+}
+.grid .column:first-child{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+.grid{
+    padding: 10px;
+}

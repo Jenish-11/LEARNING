@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    padding: 4%;
+    background-color: darkslategrey;
+}
+nav{
+    padding: 1%;
+    background-color: gray;
+}
+section{
+    background-color: transparent;
+    margin: 0% auto;
+    width: 50%;
+
+}
+.mainContent{
+    padding:35% 25%;
+    background-color: rgb(199, 199, 199);
+    display: inline-block;
+    margin: 3% 0%;
+    
+}
+.sideBar{
+    padding: 35% 9%;
+    background-color: gray;
+    display: inline-block;
+
+
+}
+footer{
+    padding: 3%;
+    background-color: black;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.na{
+    text-align: left;
+}
