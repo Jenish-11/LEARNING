@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #333333;
+    padding: 48px 0px 49px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 32px;
+/* identical to box height */
+margin: 0px 0px 0px 0px;
+text-decoration: none;
+color: #FFFEFE;
+
+}
+nav{
+    /* margin: 0px 0px 0px 152px; */
+    text-align: center;
+}
+.a2{
+    margin-left: 54px;
+}
+.a3{
+    margin-left: 53px;
+}
+.a4{
+    margin-left: 55px;
+}
+.a5{
+    margin-left: 54px;
+}
+.a6{
+    margin-left: 53px;
+    margin-right: 151px;
+}
+.a1{
+    margin-left: 152px;
+}
+.image1{
+    width: 218px;
+    height: 146px;
+    margin-left:112px;
+}
+.header2{
+    background-color: white;
+    padding: 26px 0px 37px 0px;
+    border-bottom: 1px solid black;
+
+}
+.contact{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+margin: -97px 0px 0px 1078px;
+}
+.contact2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+
+color: #000000;
+margin: 22px 0px 52px 925px;
+
+}
