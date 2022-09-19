@@ -1,0 +1,36 @@
+div{
+    background-color: black;
+    color: aliceblue;
+}
+/* @media(min-width:555px){
+
+div{
+       background-color: blue;
+       color: black;
+       width: 100%;
+       display: inline-block;
+       margin-inline: -4px;
+       border: 2px solid black;
+    }
+} */
+@media(min-width:760px){
+    div{
+           background-color: rgb(255, 0, 200);
+           width: 50%;
+           display: inline-block;
+        }
+    }
+    /* @media(min-width:991px){
+        div{
+               background-color: orange;
+               width: 25%;
+               
+
+            }
+        }
+        @media(min-width:1200px){
+            div{
+                   background-color: red;
+                   width: 50%;
+                }
+            } */
