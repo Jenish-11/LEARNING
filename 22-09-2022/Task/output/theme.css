@@ -1,0 +1,441 @@
+@media(min-width:551px){
+    li{
+        padding: 0% 0%;
+    }
+    h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 45px;
+        color: #343434;
+    
+    }
+    .nalla{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 169.19%;
+        color: #707070;
+    
+    }
+    
+    .indon{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 169.19%;
+        color: #6C6C6C;
+    }
+    .para1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 153.19%;
+        color: #000000;
+    }
+    
+    .cr{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 153.19%;
+        color: #6D9D34;
+    }
+    h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 153.19%;
+        color: #6D9D34;
+    }
+    
+    h5{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 153.19%;
+        color: #B1B1B1;
+    }
+    
+    .about{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 109.19%;
+        color: #FFFFFF;
+    }
+    .details{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 195.19%;
+        color: #FFFFFF;
+    
+    }
+    .school{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 195.19%;
+        /* or 41px */
+        color: #6D9D34;
+    }
+    .online{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .copyright{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 195.19%;
+        color: #D7E8B9;
+    }
+    .ameto{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 118.19%;
+        color: #8F8F8F;
+    }
+    .amph{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 153.19%;
+        /* identical to box height, or 66px */
+    
+    
+    color: #8F8F8F;
+    }
+    
+
+}
+@media(min-width:768px){
+    li{
+        padding: 0% 0%;
+    }
+
+}
+@media(min-width:991px){
+    li{
+        padding: 0% 2%;
+    }
+
+}
+@media(min-width:1200px){
+    li{
+        padding: 0% 3%;
+    }
+    .imgu{
+        width: min-content;
+    }h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #343434;
+
+}
+.nalla{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 169.19%;
+    color: #707070;
+
+}
+
+.indon{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 169.19%;
+    color: #6C6C6C;
+}
+.para1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 153.19%;
+    color: #000000;
+}
+
+.cr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 153.19%;
+    color: #6D9D34;
+}
+h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 153.19%;
+    color: #6D9D34;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 153.19%;
+    color: #B1B1B1;
+}
+
+.about{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 109.19%;
+    color: #FFFFFF;
+}
+.details{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 218.19%;
+    color: #FFFFFF;
+    list-style: none;
+
+}
+.school{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 195.19%;
+    /* or 41px */
+    color: #6D9D34;
+}
+.online{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.copyright{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 195.19%;
+    color: #D7E8B9;
+}
+.ameto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 118.19%;
+    color: #8F8F8F;
+}
+.amph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 153.19%;
+    /* identical to box height, or 66px */
+
+
+color: #8F8F8F;
+}
+
+}
+
+.cont2{
+    max-width: 98%;
+}
+.imgi{
+    border: 1px solid black;
+    padding: 2%;
+}
+.imga{
+    border: 1px solid white;
+}
+.body{
+    background: #F3F2EE;
+}
+.cont4{
+    max-width: 98%;
+}
+.imge{
+    border: 1px solid black;
+    padding: 1%;
+}
+.logo{
+    width: 41%;
+}
+.headerb{
+   max-width: 98%;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+.para{
+    width: max-content;
+}
+.sec2{
+    background-color:#ebe0ca;
+}
+li{
+    padding: 0% 0%;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+    color: #343434;
+
+}
+.nalla{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 169.19%;
+    color: #707070;
+
+}
+
+.indon{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 169.19%;
+    color: #6C6C6C;
+}
+.para1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 153.19%;
+    color: #000000;
+}
+
+.cr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 153.19%;
+    color: #6D9D34;
+}
+h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 153.19%;
+    color: #6D9D34;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 153.19%;
+    color: #B1B1B1;
+}
+
+.about{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 109.19%;
+    color: #FFFFFF;
+}
+.details{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 218.19%;
+    color: #FFFFFF;
+    list-style: none;
+
+
+}
+.school{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 195.19%;
+    /* or 41px */
+    color: #6D9D34;
+}
+.online{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.copyright{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 195.19%;
+    color: #D7E8B9;
+}
+.ameto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 118.19%;
+    color: #8F8F8F;
+}
+.amph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 153.19%;
+    /* identical to box height, or 66px */
+
+
+color: #8F8F8F;
+}
+
+

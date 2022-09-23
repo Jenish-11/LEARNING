@@ -9,6 +9,7 @@ header{
     width: 100%;
     padding: 2% 0%;
     background-color: black;
+    vertical-align: middle;
 
 }
 b{
@@ -23,7 +24,7 @@ b{
     margin: 1% 0%;
 }
 .image1{
-    padding: 13% 0%;
+    padding: 20% 0%;
     margin: 0% 0%;
     background-color: grey;
     padding-top:0%;
@@ -32,7 +33,7 @@ b{
 .box2{
     display: inline-block;
     background-color: rgb(246, 248, 248);
-    width: 24%;
+    width: 24.7%;
     vertical-align: top;
     margin: 1% 1%;
     padding: 0% 1%;
@@ -45,9 +46,9 @@ b{
 .box4{
     display: inline-block;
     background-color: rgb(255, 254, 254);
-    width: 22%;
+    width: 22.7%;
     vertical-align: top;
-    margin: -9% 1%;
+    margin: -13% 1%;
     padding: 0% 2%;
     margin-right: 0%;
 
@@ -63,10 +64,10 @@ img{
     margin: 0% 0%;
 }
 .box5{
-    width: 26%;
+    width: 27%;
     display: inline-block;
     padding-bottom: 6%;
-    margin: -16% 73%;
+    margin: -24% 73.3%;
     background-color: aliceblue;
     vertical-align: top;
 }
