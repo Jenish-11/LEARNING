@@ -1,3 +1,6 @@
+li{
+    padding: 0% 3%;
+}
 @media(min-width:551px){
     li{
         padding: 0% 0%;
@@ -309,9 +312,7 @@ header{
 .sec2{
     background-color:#ebe0ca;
 }
-li{
-    padding: 0% 0%;
-}
+
 h3{
     font-family: 'Roboto';
     font-style: normal;
