@@ -1,0 +1,250 @@
+header{
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 1;
+    width: 100%;
+}
+.section1{
+    background: url(/26-09-2022/comorins/output/DigitalMarketing/images/backgroundimg.png)no-repeat;
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+.list02{
+    list-style: none;
+}
+.lists{
+    color: #0ca6e9 !important;
+
+}
+a{
+    color: #0ca6e9 !important;
+}
+.list1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 141.69%;
+    /* or 28px */
+    color: #0ca6e9 !important;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.so{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #005579;
+
+}
+.midcont{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #005579;
+}
+.line1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 141.69%;
+    /* identical to box height, or 57px */
+
+
+    color: #005579;
+}
+.line2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #3EBDCC;
+
+}
+.boxes{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+h6{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+
+
+    color: #000000;
+}
+.lists3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #878787;
+    list-style-image:url(/26-09-2022/comorins/output/DigitalMarketing/images/list.png);
+
+
+}
+.list3{
+    padding: 4% 0%;
+}
+.learnmore{
+    background: #3EBDCC;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+footer{
+    background: #005579;
+}
+.list4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    list-style: none;
+    color: #FFFFFF;
+    padding: 3% 0%;
+
+}
+.bold{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #F4A41D;
+
+    mix-blend-mode: normal;
+}
+.list5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 3% 0%;
+}
+.list6{
+    list-style: none;
+    padding: 3% 0%;
+}
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+}
+/* services page css...................................................................... */
+
+.name{
+    width: 4%;
+    height: 21%;
+}
+.blockele{
+    width: 100%;
+    height: 21%;
+}
+textarea{
+    width: 100%;
+    padding-bottom: 10%;
+}
+button.apply{ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    /* width: 20%; */
+
+    color: #FFFFFF;
+    background: #3EBDCC;
+    border-radius: 6px;
+
+}
+.intext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    letter-spacing: -0.015em;
+    color: #878787;
+}
+.upf{
+    background: #BBBBBB;
+    border-radius: 6px;
+}
+.summit{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    letter-spacing: -0.015em;
+
+    color: #3EBDCC;
+}
+.boxi2{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    
+}
