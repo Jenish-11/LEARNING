@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.rbim{
+    width: 100%;
+}
 select:hover{color: #EC483C;}
 @media(min-width:500px){
     .checkbutton{
@@ -132,6 +135,10 @@ select:hover{color: #EC483C;}
         width: 96%;
         margin: 9% auto;
         text-align: center;
+    }
+    .rb1:hover{
+        box-shadow: 0px 0px 20px 5px blue;
+
     }
     .rb1{
         /* display: inline-block; */
@@ -425,7 +432,7 @@ select:hover{color: #EC483C;}
        
     .top{
         vertical-align: top;
-        margin:4% 0% 0% 1%;
+        margin:4% 0% 0% 0%;
     }
     
     .button1{
