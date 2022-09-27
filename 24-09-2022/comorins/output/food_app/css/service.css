@@ -19,7 +19,7 @@ ul{
     margin-block: auto;
 }
 .list02{
-    padding: 3% 0%;
+    padding: 1% 0%;
 }
 .list03{
     padding: 3% 0%;
@@ -33,14 +33,14 @@ ul{
 .section3{
     /* height: 0px; */
     background-color: #333333;
-    scrollbar-color: red;
+
 
 }
+
 .foodlist{
     height: 362px;
     overflow: auto;
-    scrollbar-color: red;
-    scrollbar-face-color: red;
+
 }
 .recipbut{
     border-radius: 50px;
@@ -102,20 +102,27 @@ ul{
     color: #333333;
 }
 .get{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 11px 20px;
-    /* gap: 5px; */
-    width: 201px;
+    gap: 5px;
+    width: 186px;
     height: 68px;
-    /* left: 98px; */
-    /* bottom: 98px; */
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 124% */
+
+    color: #FFFFFF !important;
+    /* Red */
+
     background: #EB5757;
     border-radius: 50px;
-    border: none;
-
 }
 .login{
         /* display: flex;
@@ -142,6 +149,7 @@ ul{
         font-size: 14px;
         line-height: 22px;
         color: #333333;
+        padding-right: 31px;
     }
     .line1{
         font-family: 'Poppins';
@@ -168,19 +176,22 @@ ul{
         list-style: none;
     }
     .login{
-        /* display: flex;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 11px 20px;
         gap: 5px;
-
-        position: absolute;
-       
+        /* position: absolute; */
         height: 49px;
-
-        Red */
-        width: 200%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #F2F2F2 !important;
+        border: none;
+        /* width: 200%; */
         background: #EB5757;
         border-radius: 50px;
     }
@@ -238,6 +249,17 @@ ul{
     li{
         list-style: none;
     }
+    .ratings{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 149% */
+
+
+        color: #000000;
+            }
     .bold{
         font-family: 'Poppins';
         font-style: normal;
@@ -291,9 +313,18 @@ ul{
     }
 
     .fe{
-        margin: -5% 1% -6% 13%;
+        margin: -5% 1% -6% 14%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        /* Gray 3 */
+
+        color: #828282;
     }
-    .me
+    
 *{
     margin: 0%;
 }
