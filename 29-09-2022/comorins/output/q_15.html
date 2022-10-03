@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isnan</title>
+</head>
+<body>
+    <script>
+        function check(){
+            let stuff=document.getElementById("numortext").value
+            if (isNaN(stuff)){
+                console.log("String")
+
+            }
+            else{
+                console.log("Number")
+            }
+
+        }
+
+    </script>
+    <input type="text" id="numortext">
+    <button onclick="check()">check</button>
+</body>
+</html>l

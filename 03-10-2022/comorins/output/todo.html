@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<style>
+    .sec1{
+        height: 1000px;
+    }
+</style>
+</head>
+<body>
+    <script>
+        let list=[]
+function addd(){
+    let todo=document.getElementById("items").value;
+    document.getElementById("items").value="";
+    list.push(todo);
+    console.log(list);
+    display(list);
+    
+    
+}
+function display(list_aray){
+    let ele="";
+    for(let i=0; i<list_aray.length; i++){
+        ele =ele+"<li>"+list_aray[i]+"</li>";
+    }
+    document.getElementById("todo").innerHTML=ele;
+    ele.addEventListener("dblclick", toggleToDoItemState);     
+
+    
+}
+function saveitems(){
+    let b=JSON.stringify(list)
+    localStorage.setItem("n",b);
+
+}
+function tick(){
+    
+}
+function clearc(){
+    
+
+while (completedItems.length > 0) {
+    completedItems.item(0).remove();
+}
+}
+function EmptyL(){
+    var toDoItems = todo.children;
+    while (toDoItems.length > 0) {
+        toDoItems.item(0).remove();
+    }
+
+}
+    </script>
+
+<div class="container bg-dark sec1">
+    <h2 class="text-white py-5">My Todo list</h2>
+    <input type="text" id="items" class="p-4 ">
+    <button onclick="addd()" class="p-3 mx-3 ">Add</button><br>
+    <button onclick="saveitems()" class="my-5">Save</button>
+    <button onclick="clearc()"class="my-5 mx-3">Clear completed</button>
+    <button onclick="EmptyL()"class="my-5 mx-3">EmptyList</button>
+
+    <ol id="todo" class="text-light" onclick="tick()"></ol>
+</div>
+    
+</body>
+</html>

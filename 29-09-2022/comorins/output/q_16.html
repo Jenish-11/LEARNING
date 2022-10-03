@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LargestNumber</title>
+    Find the largest of two number
+</head>
+<body>
+    <script>
+        function findLargest(){
+            let a=document.getElementById("num1").value;
+            let b=document.getElementById("num2").value;
+            document.getElementById("num1").value="";
+            document.getElementById("num2").value="";
+            if(a<b){
+                console.log("biggest Number is:"+b);
+            }
+            else{
+                console.log("biggest Number is:"+a);
+            }
+        }
+    </script>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <button onclick="findLargest()"> check</button>
+    
+</body>
+</html>
