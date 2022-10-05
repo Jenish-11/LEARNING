@@ -1,0 +1,59 @@
+body{
+    /* background-image:url(https://img.freepik.com/free-vector/decorative-happy-diwali-banner-with-hanging-lights-diya_1017-34335.jpg?w=826&t=st=1664961055~exp=1664961655~hmac=ce64f18dba4055ffd9a5ac165860e92b068097cab999da092b8044ac2d05f8e7);
+    
+    background-size: cover; */
+    background: linear-gradient(45deg, rgba(3, 3, 46, 0.5) 10%, transparent 10%),
+    linear-gradient(65deg, transparent 70%, rgba(255, 0, 0, 0.5) 70%),
+    linear-gradient(15deg, rgba(124, 3, 84, 0.5) 80%, transparent 80%),
+    linear-gradient(25deg, rgba(0, 0, 0, 0.5) 30%, transparent 30%),
+    linear-gradient(-35deg, rgba(231, 8, 112, 0.5) 50%, transparent 50%),
+    rgba(117, 0, 0, 0.5);
+    /* background-color: rgb(102, 1, 1); */
+}
+header{
+    background: linear-gradient(45deg, rgba(3, 3, 46, 0.5) 10%, transparent 10%),
+    linear-gradient(65deg, transparent 70%, rgba(255, 0, 0, 0.5) 70%),
+    linear-gradient(15deg, rgba(124, 3, 84, 0.5) 80%, transparent 80%),
+    linear-gradient(25deg, rgba(0, 0, 0, 0.5) 30%, transparent 30%),
+    linear-gradient(-35deg, rgba(231, 8, 112, 0.5) 50%, transparent 50%),
+    rgba(117, 0, 0, 0.5);
+}
+.quot{
+    font-family: 'Sofia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 141.69%;
+    margin: auto;
+    color: aliceblue;
+   
+}
+.box{
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 60px;
+    background: transparent;
+    border: none;
+
+
+}
+.but1{
+    padding: 1% 5%;
+    border-radius: 60px;
+    border: none;
+    background-color: firebrick;
+    margin-top: 10px;
+    text-shadow: 10px;
+    font-family: 'roboto';
+    color: antiquewhite;
+}
+.source{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 141.69%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+
+}
