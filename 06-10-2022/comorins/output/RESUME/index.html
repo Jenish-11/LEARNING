@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" onkeyup="addDetails('name',this.value)"placeholder="EnterYourFullName">
+    <input type="text" onkeyup="addDetails('role',this.value)" placeholder="Role">
+    <input type="text" onkeyup="addDetails('objective',this.value)"placeholder="Objective">
+    <input type="text" onkeyup="addDetails('link',this.value)"placeholder="link">
+    <!-- <input type="text" onkeyup="addDetails('link',this.value)"placeholder="EnterYourFullName"> -->
+    
+    <input type="email"  onkeyup="addDetails('email',this.value)" placeholder="EnterEmail">
+    <input type="number"onkeyup="addDetails('number',this.value)" placeholder="PhoneNumber">
+    <input type="text" onkeyup="addDetails('skills',this.value,0)" placeholder="skill1">
+    <input type="text" onkeyup="addDetails('skills',this.value,1)" placeholder="skill2">
+    <input type="text" onkeyup="addDetails('skills',this.value,2)" placeholder="skill3"> -->
+    <table>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('education',this.value,0,'study')"placeholder="EnterYourCourse"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,0,'Year')"placeholder="YearOfPassedout"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,0,'institute')"placeholder="EnterYourInstitueName"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,0,'percentage')"placeholder="EnterYourPercentage"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('education',this.value,1,'study')"placeholder="EnterYourCourse"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,1,'Year')"placeholder="YearOfPassedout"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,1,'institute')"placeholder="EnterYourInstitueName"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,1,'percentage')"placeholder="EnterYourPercentage"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('education',this.value,2,'study')"placeholder="EnterYourCourse"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,2,'Year')"placeholder="YearOfPassedout"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,2,'institute')"placeholder="EnterYourInstitueName"></td>
+            <td><input type="text" onkeyup="addDetails('education',this.value,2,'percentage')"placeholder="EnterYourPercentage"></td>
+        </tr>
+    </table>
+            <input type="text" onkeyup="addDetails('personalDetails',this.value,0,'Gender',)"placeholder="Gender">
+            <input type="date" onkeyup="addDetails('personalDetails',this.value,1,'DOB')"placeholder="DOB">
+            <input type="text" onkeyup="addDetails('personalDetails',this.value,2,'MartialStatus')"placeholder="MartialStatus">
+            <input type="text" onkeyup="addDetails('personalDetails',this.value,3,'language1')"placeholder="Language1">
+            <input type="text" onkeyup="addDetails('personalDetails',this.value,4,'language2')"placeholder="Language2">
+    
+    <h2>Experiance</h2>
+    <table>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,0,'Company Name')"placeholder="CompanyName"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,0,'JobRole')"placeholder="Job Role"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,0,'JobDetails')"placeholder="Job Details"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,0,'Duration')"placeholder="Duration"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,1,'Company Name')"placeholder="CompanyName"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,1,'JobRole')"placeholder="Job Role"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,1,'JobDetails')"placeholder="Job Details"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,1,'Duration')"placeholder="Duration"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,2,'Company Name')"placeholder="CompanyName"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,2,'JobRole')"placeholder="Job Role"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,2,'JobDetails')"placeholder="Job Details"></td>
+            <td><input type="text" onkeyup="addDetails('experiance',this.value,2,'Duration')"placeholder="Duration"></td>
+       </tr>
+    </table>
+    <h2>certifications</h2>
+    <table>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,0,'CourseName')"placeholder="CourseName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,0,'Duration')"placeholder="Duration"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,0,'Institute')"placeholder="EnterYourFullName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,0,'Place')"placeholder="EnterYourFullName"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,1,'CourseName')"placeholder="CourseName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,1,'Duration')"placeholder="Duration"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,1,'Institute')"placeholder="EnterYourFullName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,1,'Place')"placeholder="EnterYourFullName"></td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,2,'CourseName')"placeholder="CourseName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,2,'Duration')"placeholder="Duration"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,2,'Institute')"placeholder="EnterYourFullName"></td>
+            <td><input type="text" onkeyup="addDetails('Certification',this.value,2,'Place')"placeholder="EnterYourFullName"></td>
+        </tr>
+    </table>
+    <!-- <input type="text" onkeyup="addDetails('percentage',this.value,1)"> -->
+    
+
+    <h1 id="nme"></h1>
+    <p id="persons"></p>
+
+
+
+
+    <button onclick="ls()">Summit</button>
+<script src="script.js">
+
+</script>
+</body>
+</html>

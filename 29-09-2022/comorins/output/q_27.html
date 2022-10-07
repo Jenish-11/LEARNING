@@ -7,9 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+    Write a JS code to calculate the sum of digits in a number
     <script>
+        function  digitCount(){
+            let a=1797;
+            let i=0;
+            var j=0;
+            let k=0;
+            while(a>0){
+                j=a%10
+                j=parseInt(j,10);
+                k=k+j;
+                a=a/10;
+                a=parseInt(a,10);
 
+            }
+            console.log(k);
+        }
+        digitCount();
     </script>
 </body>
 </html>

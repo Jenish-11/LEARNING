@@ -10,7 +10,7 @@
 <body>
     <script>
         let list=["dfd","fgh","dfgh","hbvfgh"];
-        // function  deleteElement(){
+        function  deleteElement(position){
             //     let a=1;
             //    for(let i=0; i<=list.length;i++){
             //     if(i==a){
@@ -21,11 +21,10 @@
             //     document.write(result);
             //    }
 
-               delete list[1];
+               delete list[position];
                document.write(list);
-               
-
-        // }
+             }
+             deleteElement(2);
         // numPower();
     </script>
 </body>
