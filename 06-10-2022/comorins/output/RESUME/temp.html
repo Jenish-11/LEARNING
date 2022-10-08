@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tim">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tim"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <style>
     body{
         font-size: 'Times';
     }
     header{
-        background-color: rgb(2, 51, 94);
-        height: 250px;
+        background: linear-gradient(to left, #05133b 0%, #00ccff 100%);
+        /* height: 250px; */
         color: aliceblue;
         font-family: 'Times New Roman';
     }
@@ -24,67 +24,108 @@
     }
     li{
         font-family: 'Times New Roman';
-        padding: 2%;
+        padding: 1%;
+    }
+    .qual1{
+        font-size: 25px;
+        padding: 0%;
+        list-style: none;
+    }
+    span{
+        font-size: 20px;
+    }
+    .list1{
+        /* font-size: 10px; */
+    }
+    /* .det{
+        list-style: none;
+    } */
+    .ph{
+        list-style: url(images/pho.png);
+    }
+    .emi{
+        list-style: url(images/email.png);
+    }
+    .lin{
+        list-style: url(images/linkedin.png);
+    
+    }
+    .loc{
+        list-style: url(images/location.png);
+    }
+    .line{
+        border-right: 1px solid black;
+    }
+    .ed{
+        padding: 0%;
+    }
+    h3{
+        border: 10px solid #062931;
+        background-color: #062931;
+        color: white;
+        border-radius:25px;
+        /* padding-right: 0px; */
+    }
+    .b1{
+        background: #FCFCFC;
+        box-shadow: 0px 0px 20px 25px rgba(0, 0, 0, 0.1);
+        
     }
 </style>
 </head>
-<body class="container">
-    <header class="">
-        <div class="row">
-            <div class="col-3">
-
+<body class="container p-0 b1">
+    <header class="py-3 ">
+        <div class="row ">
+            <div class="col-2 ">
+                <h1 id="img"></h1>
+                <img src="C:\\fakepath\\3.jpg" alt="" id="mg">                
             </div>
             <div class="col-6 ">
                 <h1 id="Nam" class="ml-5">JENISH</h1>
                 <h2 id="rol" class="ml-5">MECHANICAL ENGINEER</h2>
-                <p id="objt" class="obj">To join well known IT organization to improve my skills
-                    and knowledge and work for the growth of the organization
+                <p id="objt" class="obj">To join well known IT organization to improve my skill          and knowledge and work for the growth of the organization
                     </p>
             </div>
-            <div class="col-3">
-                <h6 id="ph" class="mt-5">8056669838</h6>
-                <h6 id="em">jenishkl21@gmail.com</h6>
-                <h6 id="lin">linkedin</h6>
-                <h6 id="loca">Kanyakumari</h6><h6 id="loca2">TamilNadu</h6><h6 id="loca3">India</h6>
-                <h6 id="pin">629172</h6>
+            <div class="col-4">
+                <li id="ph" class="mt-3 ph mr-5">8056669838</li>
+                <li id="em" class="emi mr-5">jenishkl21@gmail.com</li>
+                <li id="lin" class="lin">linkedin</li>
+                <li id="" class="loc"><h6 id="loca1" class="d-inline"> , TamilNadu</h6><h6 id="loca2" class="d-inline"> , India</h6>
+                <h6 id="loca3" class="pin ml-4 d-inline">629172</h6><h6 id="pin" class="ml-4"></h6></li>
             </div>
         </div>
     </header>
     <div class="section1">
         <div class="container">
             <div class="row pt-3">
-                <div class="col-6">
-                    
-                    <h3 id="skillh">Technical Skills</h3>
-                    <ul id="skil">
-                        <!-- <li>Knowledge on Eclipse</li>
-                        <li>Good Knowledge on SQL.</li>
-                        <li>Good Knowledge on Core JAVA</li>
-                        <li>HTML</li>
-                        <li>CSS</li> -->
-                    </ul>
+                <div class="col-6 line">
+                    <div class="col-12">
+                        <img src="" class="" alt="im"><h3 class="d-inline px-4">Technical Skills</h3>
+                        <ul id="skil" class="mt-2 ml-3"></ul>
+
+                    </div>
+                    <div class="col-12">
+                        <img src="" class="" alt="im"><h3 class="d-inline px-4">Personal Details</h3>
+                        <ul id="pd" class="mt-2 ml-3"></ul>
+                    </div>
+                    <div class="col-12">
+                        <img src="" class="" alt="im"><h3 class="d-inline px-4">Certifications</h3>
+                        <ul id="cer" class="mt-2 ml-3"></ul>
+                    </div>
                 </div>
                 <div class="col-6">
-                    <ul id="ed">
-                        <li id="stu">BE-MechanicalEngineering</li>
-                        <h5 id="yea">year</h4>
-                        <h4 id="inst">MarEphraem College of Engineering and Technology</h4>
-                        <h4 id="perc">79</h4>
-                    </ul>
-                    <h3 id="edu">Education</h3>
-                    
-
-                    <h3 id="edu">yyyyyy</h3>
-                    <h4 id="stu">yyyyyy</h4>
-                    <h4 id="yea">yyyyyy</h4>
-                    <h4 id="inst">yyyyyy</h4>
-                    <h4 id="perc">yyyyyy</h4>
-
-                    <h3 id="edu">yyyyyy</h3>
-                    <h4 id="stu">yyyyyy</h4>
-                    <h4 id="yea">yyyyyy</h4>
-                    <h4 id="inst">yyyyyy</h4>
-                    <h4 id="perc">yyyyyy</h4>
+                    <div class="col-12">
+                        <img src="" class="" alt="im"><h3 class="d-inline px-4">Educational Qualifications</h3>
+                    <ul id="ed" class="mt-2"></ul>
+                    </div>
+                    <div class="col-12">
+                         <img src="" class="" alt="im"><h3 class="d-inline px-4">Work Experience</h3> 
+                        <ul id="exp"class="mt-2"></ul>></ul>
+                    </div>
+                    <div class="col-12">
+                        <img src="" class="" alt="im"><h3 class="d-inline px-4">Project Details</h3>
+                        <ul id="pro" class="mt-2 ml-4"></ul>
+                    </div>
 
                 </div>
             </div>
@@ -93,8 +134,8 @@
     <section class="section2">
         <div class="row">
             <div class="col-6">
-                <h3 id="pers">yyyyyy</h3>
-                <h4 id="db">yyyyyy</h4>
+                <!-- <h3 id="pers">yyyyyy</h3> -->
+                <!-- <h4 id="db">yyyyyy</h4> -->
             </div>
         </div>
     </section>

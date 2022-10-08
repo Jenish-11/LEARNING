@@ -1,0 +1,31 @@
+let ele1="";
+let list_array1=resume[0].education;
+if(list_array1!=null){
+console.log(list_array1);
+for(let i=0; i<list_array1.length; i++){
+    ele1 =ele1+"<td>"+list_array1[i].study+"</td>";
+    ele1 =ele1+"<td >"+list_array1[i].Year+"</td>";
+    ele1 =ele1+"<td>"+list_array1[i].institute+"</td>";
+    ele1 =ele1+"<td>"+list_array1[i].percentage+"</td>";
+    if(i==0){document.getElementById("g").innerHTML=ele1;}
+    if(i==1){document.getElementById("g1").innerHTML=ele1;}
+    if(i==2){document.getElementById("g2").innerHTML=ele1}
+    
+}
+}
+
+
+
+
+
+<table border="1" width="100%">
+    <tr id="p">
+        <th>CourseName</th>
+        <th>Year</th>
+        <th>Institute</th>
+        <th>percentage</th>
+    </tr>
+    <tr id="g"></tr>
+    <tr id="g1"></tr>
+    <tr id="g2"></tr>
+</table>

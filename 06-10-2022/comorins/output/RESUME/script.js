@@ -5,7 +5,8 @@ if(! localStorage.getItem("list")){
 }
 let list =JSON.parse(localStorage.getItem("list"));
 list.push(resume);
-localStorage.setItem("list",JSON.stringify(list));
+if(resume.name!=null&&resume.name!=""){
+localStorage.setItem("list",JSON.stringify(list));}
             let ele="";
             let list_array=JSON.parse(localStorage.getItem("list"));
             // console.log(list_array)
@@ -50,17 +51,24 @@ let resume={
              }}
            
             //  let b=localStorage.setItem("list",JSON.stringify(resume));
-             list.push(resume);
+            //  list.push(resume);
             //  localStorage.setItem("list",JSON.stringify(list));
             //  r=localStorage
-             console.log(list);
-            // display();
-        
+            //  console.log(list);
+            display();
+           
+            const reader =new FileReader();
+            
+            reader.addEventListener("load", () =>{
+                console.log(reader.result);
+            reader.readAsDataURL(this.files[0]);
+
+            });
         }
         function display(){
             // resume=JSON.parse(localStorage.getItem("list"));
             // console.log(resume);
-            // document.getElementById("nme").innerHTML=JSON.stringify(resume);
+            document.getElementById("nme").innerHTML=JSON.stringify(resume);
             // let listt=JSON.parse(localStorage.getItem(resume));
             // document.getElementById("persons").innerHTML=listt
             
