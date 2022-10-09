@@ -6,7 +6,21 @@ let namee=product;
 console.log(namee);
 // alert(product);
 function display(){
-    
+    // let pic =localStorage.getItem("image")
+    // console.log(pic);    
+
+
+
+
+    document.addEventListener("DOMContentLoaded", () =>{
+        if(resume[0].photo){
+            document.querySelector("#img").setAttribute("src",resume[0].photo);
+        }
+    })
+
+
+
+
     let nresume=JSON.parse(localStorage.getItem("list"));
     console.log("result"+nresume);
     
@@ -16,14 +30,7 @@ function display(){
         if(nresume[p].name==namee){
             resume.push(nresume[p]);
     console.log(resume);
-    const reader =new FileReader();
-            
-    reader.addEventListener("load", () =>{
-        console.log(reader.result);
-    reader.readAsDataURL(resume[0].photo);
-
-    });
-    document.getElementById("img").innerHTML=resume[0].photo;
+    // document.getElementById("img").innerHTML=resume[0].photo;
     document.getElementById("Nam").innerHTML=resume[0].name;
     document.getElementById("rol").innerHTML=resume[0].role;
     document.getElementById("objt").innerHTML=resume[0].objective;
@@ -73,15 +80,15 @@ function display(){
             if(list_array3!=null){
             console.log(list_array3);
             // list_array3=Object.assign({},list_array3);
-            // for(let i=0; i<list_array3.length; i++){
+            for(let i=0; i<list_array3.length; i++){
                 // let i=0;
-                ele3 =ele3+"<li class=''>"+"<span class=''>Full Name :<span/>"+list_array3[0].FullName+"</li>";
-                ele3 =ele3+"<li class=''>"+"<span class=''>DOB :<span/>"+list_array3[0].DOB+"</li>";
-                ele3 =ele3+"<li class=''>"+"<span class=''>Gender :<span/>"+list_array3[0].Gender+"</li>";
-                ele3 =ele3+"<li class=''>"+"<span class=''>MartialStatus :<span/>"+list_array3[0].Martial+"</li>";
-                ele3 =ele3+"<li class=''>"+"<span class=''>Languages :<span/>"+list_array3[0].language1+"\,"+list_array3[0].language2+"</li>";
-                ele3 =ele3+"<li class=''>"+"<span class=''>Hobbies :<span/>"+list_array3[0].hobbie1+"\, "+list_array3[0].hobbie2+"\, "+list_array3[0].hobbie3+"</li>";
-            // }
+                ele3 =ele3+"<li class=''>"+"<span class=''>Full Name :<span/>"+list_array3[i].FullName+"</li>";
+                ele3 =ele3+"<li class=''>"+"<span class=''>DOB :<span/>"+list_array3[i].DOB+"</li>";
+                ele3 =ele3+"<li class=''>"+"<span class=''>Gender :<span/>"+list_array3[i].Gender+"</li>";
+                ele3 =ele3+"<li class=''>"+"<span class=''>MartialStatus :<span/>"+list_array3[i].Martial+"</li>";
+                ele3 =ele3+"<li class=''>"+"<span class=''>Languages :<span/>"+list_array3[i].language1+"\,"+list_array3[i].language2+"</li>";
+                ele3 =ele3+"<li class=''>"+"<span class=''>Hobbies :<span/>"+list_array3[i].hobbie1+"\, "+list_array3[i].hobbie2+"\, "+list_array3[i].hobbie3+"</li>";
+            }
             console.log(ele3);
             document.getElementById("pd").innerHTML=ele3;}
     let ele4="";
@@ -124,3 +131,8 @@ function display(){
     // document.getElementById("Nam").innerHTML=m;
 }
 display();
+// document.addEventListener("DOMContentLoaded", () =>{
+//     if(resume[0].photo){
+//         document.querySelector("#img").setAttribute("src",resume[0].photo);
+//     }
+// })

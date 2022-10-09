@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Write a JS code to find the power of a number using for loop -->
+    Write a JS code to find the power of a number using for loop <br>
 </head>
 <body>
     <script>
         
         function numPower() {
             let a=document.getElementById("num").value;
-            let b;
-            b=Math.pow(a,2);
+            let b=document.getElementById("num2").value;
+            let result=1;
+           for(let i=0; i<b; i++){
+            result=result*a
+           }
           
-            console.log(b);
-
+        document.write(result);
         }
+       
+
 
     </script>
-    <input type="number" id="num">
+    <input type="number" id="num" placeholder="EnterNumber">
+    <input type="number" id="num2"placeholder="Power">
     <button onclick="numPower()">Power</button>
 </body>
 </html>

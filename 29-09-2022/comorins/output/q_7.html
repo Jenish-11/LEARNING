@@ -8,17 +8,18 @@
     <!-- Write a JS code to print Even numbers in given array -->
 </head>
 <body>
+  Write a JS code to print Even numbers in given array <br>
     <script>
         let a=[[12,2],[33,44]];
         let b=[];
         for(let i=0; i<a.length; i++){
-          for(let j=0;j<2; j++){
+          for(let j=0;j<a[i].length; j++){
             if(a[i][j]%2==0){
                 b.push(a[i][j])
 
             }
           }
-        }console.log(b);
+        }document.write(b);
     </script>
 </body>
 </html>

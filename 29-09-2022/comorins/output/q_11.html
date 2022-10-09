@@ -5,26 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- pattern program -->
+    pattern program <br>
 </head>
 <body>
     <script>
-        // let a=7;
-        // let b=[];
-        // for( let i=0; i<a; i++){
-        //    b.push(i);
-        //     console.log(b);
-            
-        // }
+    function printpattern(){
+        let a=document.getElementById("num").value;
         for (let j=0; j<7; j++){
             for(let k=0; k<=j; k++){
                 // console.log("*");
-                document.write("*");
+                document.write(a);
             }
             // console.log('<br />');
             document.write("<br/>");
         }
-    
+    }
     </script>
+    <input type="text" name="" id="num">
+    <button onclick="printpattern()">Print</button>
+
 </body>
 </html>

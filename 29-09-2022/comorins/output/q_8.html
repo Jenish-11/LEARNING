@@ -5,26 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Write a JS code to delete all occurrence of element in given array -->
+    Write a JS code to delete all occurrence of element in given array <br>
 </head>
 <body>
+
     <script>
         let list=["dfd","fgh","dfgh","hbvfgh"];
-        function  deleteElement(position){
-            //     let a=1;
-            //    for(let i=0; i<=list.length;i++){
-            //     if(i==a){
-            //         continue;
-            //     reslult.push(list[i]);
-                
-            //     }
-            //     document.write(result);
-            //    }
-
-               delete list[position];
-               document.write(list);
+        let ele="dfd"
+        function  deleteElement(list,ele){
+           for(let i=0; i<list.length;i++){
+            if(list[i]==ele){
+                list.splice(i,1);
+            }
+           }
+           return list;
              }
-             deleteElement(2);
+            list=deleteElement(list,ele);
+            document.write(list);
         // numPower();
     </script>
 </body>

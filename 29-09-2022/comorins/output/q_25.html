@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Write a JS code to find N value in the Fibonacci series for a given -->
-<!-- number -->
+    Write a JS code to find N value in the Fibonacci series for a given
+number
 </head>
 <body>
-    
+    <script>
+        let a=0;
+        let b=1;
+        let c=0;
+        let N=13;
+        let J=[a,b]
+        document.write(a+""+b);
+        for(let i=0; i<N;i++){
+            c=a+b
+            J.push(c);
+            document.write(c);
+            a=b;
+            b=c;
+        }
+        for(let i=0; i<J.length;i++){
+            if(J[i]==N){
+                document.writeln("The Number is in: "+i);
+            }
+        }
+
+    </script>
 </body>
 </html>
