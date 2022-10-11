@@ -1,13 +1,42 @@
-header{
-    background-color: rgb(55, 58, 58);
-}
-nav{
-   
-    color: aliceblue;
-}
+
 .section2{
     
 }
 .slide{
     height: 250px;
+}
+/*  */
+header{
+    background-color: rgb(10, 81, 187);
+}
+nav{
+   
+    color: aliceblue;
+}
+.ic{
+    margin-left: 15%;
+}
+form{
+    position: relative;
+}
+.inse{
+    width: 449px !important;
+}
+.search{
+    position: absolute;
+    top:7%;
+    right:5%;
+
+}
+.log{
+    color: blue;
+    font-weight: 500;
+}
+.bm{
+    font-weight: 500;
+    color: aliceblue;
+}
+.bm:hover{
+    color: white;
+
 }

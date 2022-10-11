@@ -3,7 +3,7 @@ function disp(){
     console.log(list);
     let ele="<div class='col-3 p-4'>";
     for(let i=0; i<list.length;i++){
-        ele=ele+"<img src='"+list[i].pic+"' alt='image'>"+"<h5>"+list[i].name+"</h5>"+"<h5>"+list[i].title+"<h5>"+"<h5>"+list[i].rating+"</h5>"+"<h5>"+list[i].rate+"</h5>"+"<h5>"+list[i].discounts+"</h5>"+"</div><div class='col-3 p-4'>";
+        ele=ele+"<div><a href='second.html?name="+list[i].id+"'target='blank'><img src='"+list[i].pic+"' alt='image' class='card'></a>"+"<h5>"+list[i].name+"</h5>"+"<h5>"+list[i].rating+"★"+"</h5>"+"<h5>"+"₹"+list[i].rate+"<span>"+list[i].discounts+"% off"+"</span>"+"</h5>"+"</div><div class='col-3 p-4'></div>";
     }document.getElementById("g").innerHTML=ele
 
 

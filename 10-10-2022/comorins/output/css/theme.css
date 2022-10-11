@@ -1,0 +1,69 @@
+header{
+    background-color: rgb(55, 58, 58);
+}
+nav{
+   
+    color: aliceblue;
+}
+.c1{
+    max-width: 98%;
+}
+.but{
+    width: 49%;
+    border: none;
+    border-radius: 2px;
+    font-weight:700;
+    color: aliceblue;
+
+}
+.atc{
+    background-color: orange;
+}
+.bn{
+    background-color: tomato;
+}
+li{
+    list-style: none;
+    padding: 1.5% 0%;
+}
+.l1{
+    
+
+}
+.l2{
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 400;
+}
+.l3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.l4{
+    background-color: green;
+    display: inline;
+    padding: 4px 8px ;
+    color: aliceblue;
+    border-radius: 48%;
+}
+.l5{
+    font-size: 14px;
+    font-weight: 500;
+}
+.disc{
+    font-size: 16px;
+    font-weight: 500;
+    color: green;
+}
+.of{
+    padding: 1% 0%;
+    /* list-style: url(https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90); */
+}
+.of::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+    background-image:url(https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90);
+}
