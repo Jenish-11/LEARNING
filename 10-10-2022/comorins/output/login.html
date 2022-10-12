@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container text-center">
+        <h2>Enter Email id</h2>
+    <input type="text" onkeyup="add('email',this.value)">
+    <h2>Enter Password</h2>
+    <input type="text"onkeyup="add('password',this.value)"><br><br>
+
+   
+    <a href="" id="gg"><button onclick="ms()">login</button></a>
+    <h1 id="nme"></h1>
+
+    <h4>New to Flipkart</h4>
+    <a href="signup.html"><button>Signup</button></a><span>hear.</span>
+    </div>
+    
+<script>
+    let persons_details;
+    let person_details={
+
+    };
+    function add(key,value,index=null,indexkey=null){
+        if(index==null&&indexkey==null){
+         person_details[key]=value;
+         person_details[key]=value;
+    }
+    persons_details=person_details;
+
+display();
+        
+}
+function display(){
+
+    document.getElementById("nme").innerHTML=JSON.stringify(person_details);
+  
+}
+localStorage.setItem("logins",JSON.stringify([]));
+function ms(){
+    let logers =JSON.parse(localStorage.getItem("logers"));
+    // localStorage.setItem("logins",JSON.stringify([]));
+    let logins=[];
+    console.log(persons_details);
+    for(let i=0; i<logers.length; i++){
+        console.log(logers[i].email)
+        if(logers[i].email==person_details.email&& logers[i].password==person_details.password){
+            // <a href="index.html" id="gg"><button onclick="ms()">login</button></a>
+            logins.push(logers[i])
+            localStorage.setItem("logins",JSON.stringify(logins));
+            
+            document.querySelector("#gg").setAttribute("href","index.html");
+            // b=true;
+        }
+        else{
+            console.log("false");
+        }
+    }
+
+}
+// ms();
+// if(b==true){
+    
+// }
+</script>
+</body>
+</html>

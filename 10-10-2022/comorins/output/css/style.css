@@ -2,8 +2,13 @@
 .section2{
     
 }
-.slide{
-    height: 250px;
+.imb{
+    object-fit: cover;
+    /* height: 300px; */
+
+}
+.im{
+/* height: 300px !important; */
 }
 /*  */
 header{
@@ -39,4 +44,40 @@ form{
 .bm:hover{
     color: white;
 
+}
+.logout{
+    color: aliceblue !important;
+    font-weight: bolder;
+    width: 69px;
+    height: 41px;
+    background-color: aliceblue;
+}
+/*  */
+.name{
+    font-size: 16px;
+    font-weight: 400;
+}
+.rating{
+    font-size: 15px;
+    background-color: green;
+    color: aliceblue;
+    width: max-content;
+    padding: 0% 2%;
+    border-radius: 3px;
+}
+.rate{
+    font-size: 18px;
+    font-weight: 500;
+}
+.discount{
+    color: green;
+    font-size: 14px;
+}
+.offers{
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+}
+.img{
+    height: 294px;
 }

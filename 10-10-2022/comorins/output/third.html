@@ -11,6 +11,43 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   
   <style>
+
+    /*  */
+    header{
+    background-color: rgb(10, 81, 187);
+}
+nav{
+   
+    color: aliceblue;
+}
+.ic{
+    margin-left: 15%;
+}
+form{
+    position: relative;
+}
+.inse{
+    width: 449px !important;
+}
+.search{
+    position: absolute;
+    top:7%;
+    right:5%;
+
+}
+.log{
+    color: blue;
+    font-weight: 500;
+}
+.bm{
+    font-weight: 500;
+    color: aliceblue;
+}
+.bm:hover{
+    color: white;
+
+}
+    /*  */
 .sec{
     max-width: 94%;
 }
@@ -36,8 +73,15 @@
     margin-left: 3%;
 }
 ul{
-    margin-left: 25%;
+    margin-left: 0%;
     list-style: none;
+    
+}
+.imj{
+    vertical-align: top;
+}
+.cul{
+    display: inline-block !important;
 }
 .re{
     font-size: 16px;
@@ -94,23 +138,62 @@ h5{
     margin-top: 2%;
 }
 body{
-    position: relative;
+    
+}
+.parent{
+    /* position: relative; */
 }
 .pob{
     border-top: 1px solid black;
     box-shadow: #212121;
-    position: fixed;
+    /* position: sticky; */
+    z-index: 6;
+    width: 100%;
 }
 
   </style>
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand ic" href="index.html"><img src="images/icon3.png" alt="" class="w-75"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2 inse" type="search" placeholder="Search" aria-label="Search">
+              <a href="" class="search"><img src="images/search.png" alt="" ></a>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" id="log">
+                  <a class="nav-link" href="#" id="user"><button class="px-4 py-1 border-0 log"> Login <span class="sr-only">(current)</span></button></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link mt-1 bm" href="#">Become a Seller</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mt-1 bm" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a>
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
     </header>
     <div class="container sec">
         <div class="row">
-            <div class="col-8 mt-5" id="">
+            <div class="col-8 mt-5 parent" id="">
                 <div class="" id="p">
                     
                 </div>
@@ -127,5 +210,6 @@ body{
         </div>
     </div>
 <script src="js/third.js"></script>
+<script src="js/username.js"></script>
 </body>
 </html>

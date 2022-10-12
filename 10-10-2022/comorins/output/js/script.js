@@ -30,7 +30,7 @@ function ls(){
     localStorage.setItem("items",JSON.stringify(items));
     let ele="";
     let items_array=JSON.parse(localStorage.getItem("items"));
-    // console.log(items_array)
+    console.log("hj"+items_array);
     for(let i=0; i<items_array.length; i++){
         ele =ele+"<li class='m-3'>"+items_array[i].name+"<a/>"+"<button onclick='clearc("+ i +")' class='ml-3'>"+"X"+"</button>"+"</li>"+"</li>";
     }
@@ -64,6 +64,7 @@ function addDetails(key,value,index=null,indexkey=null){
         
 
      }}
+     products.pic=data;
     
 display();
         

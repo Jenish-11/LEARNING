@@ -21,7 +21,7 @@ function ls(){
             localStorage.setItem("list",JSON.stringify(list));}
             let ele="";
             let list_array=JSON.parse(localStorage.getItem("list"));
-            // console.log(list_array)
+            console.log("hj"+list_array)
             for(let i=0; i<list_array.length; i++){
                 ele =ele+"<li class='m-3'>"+"<a href='temp2.html?name="+list_array[i].name+"' target='blank'>"+list_array[i].name+"<a/>"+"<button onclick='clearc("+ i +")' class='ml-3'>"+"X"+"</button>"+"</li>"+"</li>";
             }

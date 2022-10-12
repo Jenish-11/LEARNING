@@ -1,10 +1,40 @@
+
+/*  */
 header{
-    background-color: rgb(55, 58, 58);
+    background-color: rgb(10, 81, 187);
 }
 nav{
    
     color: aliceblue;
 }
+.ic{
+    margin-left: 15%;
+}
+form{
+    position: relative;
+}
+.inse{
+    width: 449px !important;
+}
+.search{
+    position: absolute;
+    top:7%;
+    right:5%;
+
+}
+.log{
+    color: blue;
+    font-weight: 500;
+}
+.bm{
+    font-weight: 500;
+    color: aliceblue;
+}
+.bm:hover{
+    color: white;
+
+}
+/*  */
 .c1{
     max-width: 98%;
 }
@@ -66,4 +96,16 @@ li{
     height: 18px;
     width: 18px;
     background-image:url(https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90);
+}
+.details{
+    font-size: 14px;
+    color: #878787;
+    font-weight: 500;
+    float: left;
+}
+.det{
+    line-height: 1.5em;
+    font-size: 14px;
+    margin-left: 14%;
+    font-weight: 400;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+</head>
+<body>
+    <div class='col-12'><div class='row'><div class='col-3'><img src=' alt='image'></div><div class='col-6'><ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div><div class='col-3'><h4></h4><h4></h4></div></div></div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+function cart(position){
+    if(! localStorage.getItem("cart_list")){
+      localStorage.setItem("cart_list",JSON.stringify([]));
+  }
+  let cart_list =JSON.parse(localStorage.getItem("cart_list"));
+  cart_list.push(list[position]);
+  localStorage.setItem("cart_list",JSON.stringify(cart_list));
+  console.log(cart_list);
+}

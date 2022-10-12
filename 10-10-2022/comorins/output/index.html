@@ -13,7 +13,7 @@
 <body>
     <header class="">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand ic" href="#"><img src="images/icon3.png" alt="" class="w-75"></a>
+            <a class="navbar-brand ic" href="index.html"><img src="images/icon3.png" alt="" class="w-75"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,8 +23,8 @@
             </form>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"><button class="px-4 py-1 border-0 log"> Login <span class="sr-only">(current)</span></button></a>
+                <li class="nav-item active" id="log">
+                  <a class="nav-link" href="login.html" id="user"><button class="px-4 py-1 border-0 log"> Login <span class="sr-only">(current)</span></button></a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link mt-1 bm" href="#">Become a Seller</a>
@@ -41,7 +41,10 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link "><img src="images/cart.png" alt=""></a>
+                  <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a>
+                </li>
+                <li class="nav-item ml-5 logout"id="hidelogout">
+                  <!-- <a class="nav-link " href="" onclick="removec()" class="text-white" >Logout</a> -->
                 </li>
               </ul>
              
@@ -52,43 +55,43 @@
         <div class="row">
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
+                    <img src="images/topoffers.webp" alt="image">
                     <h5>Top Offers</h5>
                 </div>
                
             </div>
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
-                    <h5>Top Offers</h5>
+                    <img src="images/mobiles.webp" alt="image">
+                    <a href="mobile.html?name=Mobile"><h5>Mobiles</h5></a>
                 </div>
                
             </div>
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
-                    <h5>Top Offers</h5>
+                    <img src="images/Fashion.webp" alt="image">
+                    <h5>Fashions</h5>
                 </div>
                
             </div>
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
-                    <h5>Top Offers</h5>
+                    <img src="images/grocery.webp" alt="image" class="">
+                    <h5>Grocery</h5>
                 </div>
                
             </div>
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
-                    <h5>Top Offers</h5>
+                    <img src="images/appliances.webp" alt="image">
+                    <h5>Home Appliances</h5>
                 </div>
                
             </div>
             <div class="col-2 text-center">
                 <div class="">
-                    <img src="" alt="image">
-                    <h5>Top Offers</h5>
+                    <img src="images/electronics.webp" alt="image">
+                    <h5>Electronics</h5>
                 </div>
                
             </div>
@@ -98,14 +101,14 @@
     <section class="section2 bg-secondary ">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item active imb">
+                <img src="https://imgscf.slidemembers.com/docs/1/1/442/online_shopping_powerpoint_themes_441592.jpg" class="d-block w-50" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item imp">
+                <img src="https://imgscf.slidemembers.com/docs/1/1/442/online_shopping_powerpoint_themes_441594.jpg" class="d-block w-50 im" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item imp">
+                <img src="https://imgscf.slidemembers.com/docs/1/1/442/online_shopping_powerpoint_themes_441532.jpg" class="d-block w-50 im" alt="...">
               </div>
             </div>
            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
@@ -135,9 +138,8 @@
         
       </div>
     </section>
-    <script src="js/front.js">
-
-    </script>
+    <script src="js/front.js"></script>
+    <script src="js/username.js"></script>
 
 
 
