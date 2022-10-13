@@ -5,41 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<style>
+    header{
+    background-color: rgb(10, 81, 187);
+}
+nav{
+   
+    color: aliceblue;
+}
+.ic{
+    margin-left: 15%;
+}
+form{
+    position: relative;
+}
+.inse{
+    width: 449px !important;
+}
+.search{
+    position: absolute;
+    top:7%;
+    right:5%;
 
+}
+.log{
+    color: blue;
+    font-weight: 500;
+}
+.bm{
+    font-weight: 500;
+    color: aliceblue;
+}
+.bm:hover{
+    color: white;
+
+}
+.logout{
+    color: aliceblue !important;
+    font-weight: bolder;
+    width: 69px;
+    height: 41px;
+    background-color: aliceblue;
+}
+.p li{
+    margin-left: 4%;
+    list-style:none;
+    padding-bottom:1% ;
+}
+</style>
 </head>
 <body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand ic" href="index.html"><img src="images/icon3.png" alt="" class="w-75"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2 inse" type="search" placeholder="Search" aria-label="Search">
+              <a href="" class="search"><img src="images/search.png" alt="" ></a>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" id="log">
+                  <a class="nav-link" href="login.html" id="user"><button class="px-4 py-1 border-0 log"> Login <span class="sr-only">(current)</span></button></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link mt-1 bm" href="#">Become a Seller</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mt-1 bm" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a>
+                </li>
+                <li class="nav-item ml-5 logout"id="hidelogout">
+                  <!-- <a class="nav-link " href="" onclick="removec()" class="text-white" >Logout</a> -->
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
+    </header>
     <div class="container">
-        <div class="">
-            <ul id="g">
-                <li></li>
+        <div class="row">
+            <div class="col-12">
+               <div id="g">
+                <!-- <li></li>
                 <li></li>
                 <li><li></li><li></li><li></li></li>
                 <li></li>
-                <li></li>
-            </ul>
+                <li></li> -->
+                </div> 
+            </div>
+            <div class="col-12 p">
+                <div class="mt-5">
+                     <span class="fs-4 ">Payment Method</span>
+                <li>
+                    <input type="radio" name="cash" value="CashOnDelivery" onclick="detail()"><span>Cash On Delivery</span>
+                </li>
+                <li class="disabled">
+                    <input type="radio" name="cash" class="" id="disabl" onclick="detail()"><span class="disabled">UPI</span>
+                </li>
+                <li>
+                    <input type="text"  onkeyup="details('add1',this.value)">
+                </li>
+                <li>
+                    <input type="text" onkeyup="details('add2',this.value)">
+                </li>
+                <li>
+                    <input type="text" onkeyup="details('add3',this.value)">
+                </li>
+                </div>
+               
+            </div>
+            <button onclick="ls()">Finish</button>
         </div>
+        <h1 id="nme"></h1>
     </div>
     <script>
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    let product = urlParams.get('name');
-    let namee=product;
-    console.log(namee);
+//     const queryString = window.location.search;
+//     const urlParams = new URLSearchParams(queryString);
+//     let product = urlParams.get('name');
+//     let namee=product;
+//     console.log(namee);
+//     document.getElementById("disabl").disabled = true;
+// function disp(){
+//     let ele="";
+//     let logers_array=JSON.parse(localStorage.getItem("logers"));
+//     let logins=JSON.parse(localStorage.getItem("logins"));
+//     for(let i=0; i<logers_array.length; i++){
+//         if(logers_array[i].name==logins[0].name){       
+//             ele= ele+"<span>Welcome !</span><h2 classs=''>"+logers_array[i].name+"</h2><h6><span>ph-</span>"+logers_array[i].number+"</h6><h6><span class''> Address :  </span><span class=''>"+logers_array[i].ad1+"</span><span>, "+logers_array[i].ad2+"</span><span>, "+logers_array[i].ad3+"</span></h6>";
+//             document.getElementById("g").innerHTML=ele;
+//     }
+//         else{}
+//     }
+// }
+// disp();
+// let orders={
+//     paymontType:"",
+//     email:"",
+//     phoneNumber:0,
+// }
+// function details(){
+//     var ele = document.getElementsByName('cash');
+              
+//               for(i = 0; i < ele.length; i++) {
+//                   if(ele[i].checked)
+//                 orders.paymontType=ele[i].value;
+//               }
+//               console.log(orders.paymontType)
+// }
+// details();
 
-function disp(){
-    let ele="";
-    let logers_array=JSON.parse(localStorage.getItem("logers"));
-    for(let i=0; i<logers_array; i++){
-        if(namee==logers_array[i].name){
-            ele= ele+"<li>"+logers_array[i].name+"</li><li>"+logers_array[i].number+"</li><li><li>"+logers_array[i].ad1+"</li><li>"+logers_array[i].ad2+"</li><li>"+logers_array[i].ad3+"</li></li>";
-            document.getElementById("g").innerHTML=ele;
-        }
-        else{}
-    }
-}
+
     </script>
+    <script src="js/placeorder.js"></script>
+    <script src="js/username.js"></script>
 </body>
 </html>

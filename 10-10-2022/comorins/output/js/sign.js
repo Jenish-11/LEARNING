@@ -1,7 +1,7 @@
 let person_details={
   
     pic:"",
-    carts:[{}],
+    carts:[],
  
 };
 // let data; 

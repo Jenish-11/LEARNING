@@ -20,6 +20,91 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function cart(position){
+    if(! localStorage.getItem("cart_list")){
+      localStorage.setItem("cart_list",JSON.stringify([]));
+  }
+  let logers =JSON.parse(localStorage.getItem("logers"));
+  let logins=JSON.parse(localStorage.getItem("logins"));
+
+    for(let i=0; i<logers.length;i++){
+      if(logers[i].name==logins[0].name){
+          logers[i].carts.push(list[position].id)
+         console.log("jkgj"+logers[i].carts);
+         localStorage.setItem("logers",JSON.stringify(logers));
+      }
+      
+  } 
+if(logins[0].name==null){
+  let cart_list =JSON.parse(localStorage.getItem("cart_list"));
+  cart_list.push(list[position]);
+  localStorage.setItem("cart_list",JSON.stringify(cart_list));
+  console.log(cart_list);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function cart(position){
     if(! localStorage.getItem("cart_list")){
       localStorage.setItem("cart_list",JSON.stringify([]));
