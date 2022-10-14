@@ -31,7 +31,7 @@ function div(){
          order.produ=list[c];
         
        
-            ele=ele+"<div class='card w-100'><a href='second.html?name="+list[i].id+"'target='blank'><img src='"+list[i].pic+"' alt='image' class='img w-100'></a></div>"+"<h5 class='name'>"+list[i].name+"</h5>"+"<h5 class='rating'>"+list[i].rating+"★"+"</h5>"+"<h5 class='rate'>"+"₹"+list[i].rate+"<span class='discount ml-4'>"+list[i].discounts+"% off"+"</span>"+"</h5>"+"<h5 class='offers'>Back Offers"+"</h5>"+"</div><div class='col-3 p-4'>";
+            ele="<div class='card w-50 mt-3'><a href='second.html?name="+list[i].id+"'target='blank'><img src='"+list[i].pic+"' alt='image' class='img w-100'></a></div>"+"<h5 class='name'>"+list[i].name+"</h5>"+"<h5 class='rating'>"+list[i].rating+"★"+"</h5>"+"<h5 class='rate'>"+"₹"+list[i].rate+"<span class='discount ml-4'>"+list[i].discounts+"% off"+"</span>"+"</h5>"+"<h5 class='offers'>Back Offers"+"</h5>"+"</div><div class='col-3 p-4'>";
       
  }} document.getElementById("gp").innerHTML=ele; 
 }
@@ -125,3 +125,16 @@ function dis(){
             }document.getElementById("g").innerHTML=ele;
         }
         dis();
+function profile(position){
+    let logers =JSON.parse(localStorage.getItem("logers"));
+    let orders =JSON.parse(localStorage.getItem("orders"));
+    let list =JSON.parse(localStorage.getItem("items"));
+    let elem="<div class='col-3 p-4'>";
+    for(let i=0; i<orders.length+list.length;i++ ){
+        if(logers[position].email==orders[i].email&&orders[i].produ==list[i]){
+            ele=ele+"<div class='card w-100'><a href='second.html?name="+list[i].id+"'target='blank'><img src='"+list[i].pic+"' alt='image' class='img w-100'></a></div>"+"<h5 class='name'>"+list[i].name+"</h5>"+"<h5 class='rating'>"+list[i].rating+"★"+"</h5>"+"<h5 class='rate'>"+"₹"+list[i].rate+"<span class='discount ml-4'>"+list[i].discounts+"% off"+"</span>"+"</h5>"+"<h5 class='offers'>Back Offers"+"</h5>"+"</div><div class='col-3 p-4'>";
+        }
+        
+    }document.getElementById("main").innerHTML=ele;
+
+}

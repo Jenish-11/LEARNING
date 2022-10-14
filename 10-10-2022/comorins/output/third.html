@@ -47,6 +47,24 @@ form{
     color: white;
 
 }
+.nof{
+    position: absolute;
+    right: 18%;
+    top: 0%;
+    background-color: red;
+    width:12px ;
+    height:21px ;
+    border-radius: 7px;
+}
+.item_box:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+    filter: brightness(1);
+    /* width: 200px;
+    height: 200px; */
+
+
+}
     /*  */
 .sec{
     max-width: 94%;
@@ -82,6 +100,7 @@ ul{
 }
 .cul{
     display: inline-block !important;
+    width: 447px;
 }
 .re{
     font-size: 16px;
@@ -150,7 +169,9 @@ body{
     z-index: 6;
     width: 100%;
 }
-
+/* .karts{
+    background-color: burlywood;
+} */
   </style>
 </head>
 <body>
@@ -184,7 +205,7 @@ body{
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a>
+                  <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a><span id="nofi" class="text-white nof"></span>
                 </li>
                 <li class="nav-item ml-5 logout"id="hidelogout">
                   <!-- <a class="nav-link " href="" onclick="removec()" class="text-white" >Logout</a> -->

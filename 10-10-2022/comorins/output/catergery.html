@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header class="">
+          <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand ic" href="index.html"><img src="images/icon3.png" alt="" class="w-75"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 inse" type="search" placeholder="Search" aria-label="Search">
+                <a href="" class="search"><img src="images/search.png" alt="" ></a>
+              </form>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active" id="log">
+                    <a class="nav-link" href="login.html" id="user"><button class="px-4 py-1 border-0 log"> Login <span class="sr-only">(current)</span></button></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link mt-1 bm" href="#">Become a Seller</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mt-1 bm" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="third.html"><img src="images/cart.png" alt=""></a><span id="nofi" class="text-white nof"></span>
+                  </li>
+                  <li class="nav-item ml-5 logout"id="hidelogout">
+                    <!-- <a class="nav-link " href="" onclick="removec()" class="text-white" >Logout</a> -->
+                  </li>
+                </ul>
+               
+              </div>
+            </nav>
+      </header>
+      <div class="container">
+        <div class="row">
+            <section class="section4">
+                <div class="row" id="g">
+                  
+                </div>
+              </section>
+        </div>
+      </div>
+        
+    
+    <script>
+        
+function disp(){
+    const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+let product = urlParams.get('name');
+let namee=product;
+console.log(namee);
+    let list =JSON.parse(localStorage.getItem("items"));
+
+    console.log(list);
+    let ele="<div class='col-3 p-4 '>";
+    let ele2="";
+    for(let i=0; i<list.length;i++){
+        if(namee==list[i].categery){
+           
+            ele=ele+"<div class='card w-100'><a href='second.html?name="+list[i].id+"'target='blank'><img src='"+list[i].pic+"' alt='image' class='img w-100 item_box'></a></div>"+"<h5 class='name'>"+list[i].name+"</h5>"+"<h5 class='rating'>"+list[i].rating+"★"+"</h5>"+"<h5 class='rate'>"+"₹"+list[i].rate+"<span class='discount ml-4'>"+list[i].discounts+"% off"+"</span>"+"</h5>"+"<h5 class='offers'>Back Offers"+"</h5>"+"</div><div class='col-3 p-4'>";
+  
+            // document.querySelector("#img").setAttribute("src",resume[0].photo);
+
+}
+document.getElementById("g").innerHTML=ele;
+// document.getElementById("butt").innerHTML=ele2;
+}
+}
+disp();
+    </script>
+    <script src="js/username.js"></script>
+</body>
+</html>

@@ -74,3 +74,9 @@ function display(){
     document.getElementById("nme").innerHTML=JSON.stringify(products);
   
 }
+function clearc(position){
+    let items =JSON.parse(localStorage.getItem("items"));
+    items.splice(position,1);
+    localStorage.setItem("items",JSON.stringify(items));
+    
+}
