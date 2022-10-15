@@ -5,13 +5,17 @@ for(let i=0; i<logers.length; i++){
 let element="";
 let element2="";
 let b;
+if(logins[0]){
 if(logins[0].name==logers[i].name){
     element=element+"<a class='nav-link' href='placeorder.html' id='user'><button class='px-4 py-1 border-0 log' onclick='profile("+i+")'>"+logers[i].name+"<span class='sr-only'>(current)</span></button></a>"
     element2 ="<a class='nav-link ' href='' onclick='removec()' class='text-white' >Logout</a>"
     document.getElementById("user").innerHTML=element
     document.getElementById("hidelogout").innerHTML=element2;
     b=true;
-}  
+}  }
+else{
+    b=false;
+}
 // else{
 //     element=element+"<a class='nav-link' href='login.html' id='user'><button class='px-4 py-1 border-0 log'>Login<span class='sr-only'>(current)</span></button>"
 //     document.getElementById("log").innerHTML=ele

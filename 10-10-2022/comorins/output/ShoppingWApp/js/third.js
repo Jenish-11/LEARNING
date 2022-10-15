@@ -8,6 +8,7 @@ let d=0;
 function disp(){
     let logers =JSON.parse(localStorage.getItem("logers"));
     let logins=JSON.parse(localStorage.getItem("logins"));
+     if(logins[0]){
     for(let i=0; i<logers.length;i++){
        if(logers[i].email==logins[0].email){
         d=i;
@@ -47,13 +48,18 @@ function disp(){
 
 
 }
-if(logins[0].email==undefined){
+// if(logins[0].email==undefined){
     
-}
+// }
 ele1=ele1+"<h2 class='pd'>PRICE DETAILS</h2><li class='tp'>"+"<span class='plt'>Price</span><h5 class='d-inline'>"+"₹"+tp+"</h5></li>"+"<li class='dc'>"+"<span class='plt'>Discount</span><h5 class='d-inline text-success'>"+dis+"₹"+"</h5></li>"+"<li>"+"<span class='plt'>Delivery Charges</span><h5 class='d-inline text-success'>"+del+"</h5></li>"+"<li class='pb-2'>"+"<span class='plt'>Secured Packaging Fee</span><h5 class='d-inline'>"+"₹"+pkf+"</h5></li><hr>"+"<li class='ta mb-1'>"+"<span class='plt'>Total Amount<span><h5 class='d-inline'>"+"₹"+total+"</h5></li><hr>"+"<li class='save'>You will save "+"₹"+save+" on this order</li>";
 
 document.getElementById("p").innerHTML=ele
 document.getElementById("pl").innerHTML=ele1
+}
+else{
+    document.getElementById("body").innerHTML=`<div class='col-12 pob'><a href="login.html" onclick="order_details()"><button class='float-right bg-primary po'>LOGIN</button></a></div>
+    `
+}
 
 }
 function clearc(position){
