@@ -1,15 +1,10 @@
 
-.section2{
-    
-}
 .imb{
     object-fit: cover;
     /* height: 300px; */
 
 }
-.im{
-/* height: 300px !important; */
-}
+
 /*  */
 header{
     background-color: rgb(10, 81, 187);
@@ -50,7 +45,7 @@ form{
     font-weight: bolder;
     width: 69px;
     height: 41px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 /*  */
 .name{
@@ -101,4 +96,111 @@ form{
     height: 200px; */
 
 
+}
+.footer_icon{
+    align-self: center;
+}
+/* .footer2{ */
+    /* padding-top: 2%; */
+/* } */
+.footer_sec2 li{
+    display: inline-block;
+    /* padding-left: 5%; */
+}
+.maxw{
+    max-height: 500px;
+}
+
+
+
+
+                                                    /* Third Html Page */
+.sec{
+    max-width: 94%;
+}
+.id{
+    color: #878787;
+    font-size: 14px;
+    height: 20px;
+}
+.na{
+    font-size: 16px;
+    color: #212121;
+    line-height: 1;
+}
+.ra{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212121;
+}
+.di{
+    font-weight: 500;
+    color: #388e3c;
+    font-size: 16px;
+    margin-left: 3%;
+}
+
+.imj{
+    vertical-align: top;
+}
+.cul{
+    display: inline-block !important;
+    width: 447px;
+    margin-left: 0%;
+    list-style: none;
+}
+.re{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pd{
+    font-size: 16px;
+    font-weight:500;
+    color:gray;
+    margin-left: 7%;
+}
+.pl li{
+    padding-top: 4%;
+    font-size: 16px;
+    font-weight: 480;
+    list-style: none;
+    margin-left: 7%;
+}
+.pl h5{
+    font-size: 16px;
+    font-weight: 480;
+    margin-right: 7%;
+    float: right;
+
+}
+.ta .plt{
+    font-weight: 500;
+    font-size: 18px;
+}
+.ta h5{
+    font-weight: 500;
+    font-size: 18px;
+}
+.pl .save{
+    font-size: 16px;
+    font-weight: 500;
+    color:#388e3c;;
+}
+.po{
+    padding: 1.5% 10%;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: orangered;
+    margin-top: 2%;
+}
+
+.pob{
+    border-top: 1px solid black;
+    box-shadow: #212121;
+    /* position: sticky; */
+    z-index: 6;
+    width: 100%;
 }

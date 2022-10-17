@@ -139,7 +139,7 @@ form{
     let person_details={
 
     };
-    function add(key,value,index=null,indexkey=null){
+    function add(key,value,index=null,indexkey=null){                           //user input for logins
         if(index==null&&indexkey==null){
          person_details[key]=value;
          person_details[key]=value;
@@ -155,7 +155,7 @@ function display(){
   
 }
 localStorage.setItem("logins",JSON.stringify([]));
-function ms(){
+function ms(){                                                              //it is the funtion to compare login id to sign in id
     let logers =JSON.parse(localStorage.getItem("logers"));
     // localStorage.setItem("logins",JSON.stringify([]));
     let logins=[];

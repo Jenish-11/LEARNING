@@ -4,7 +4,7 @@ let product = urlParams.get('name');
 let namee=product;
 console.log(namee);
 document.getElementById("disabl").disabled = true;
-function displ(){
+function displ(){                                           //Display the user informations
 let ele="";
 let logers_array=JSON.parse(localStorage.getItem("logers"));
 let logins=JSON.parse(localStorage.getItem("logins"));
@@ -22,7 +22,7 @@ let order={
 }
 
 let c=0;
-function div(){
+function div(){                                             //Display the Buy Now Products and place order only byu now products
     let ele="<div class='col-6 p-4'>";
  let list =JSON.parse(localStorage.getItem("items"))
  for(let i=0; i<list.length; i++){
@@ -40,7 +40,7 @@ function div(){
    
 //  }
  console.log("wed"+c);
-function detail(){
+function detail(){                                              //obtained user Inputs For Place Order
  let logers =JSON.parse(localStorage.getItem("logers"));
     let logins=JSON.parse(localStorage.getItem("logins"));
     let list =JSON.parse(localStorage.getItem("items"));
@@ -70,7 +70,7 @@ function detail(){
 
 
 
-function ls(){
+function ls(){                                                      //Finish order
     if((order.add1&&order.add2&&order.add3&&order.paymontType&&order.produ)!=null){
         if(! localStorage.getItem("orders")){
     localStorage.setItem("orders",JSON.stringify([]));
@@ -86,7 +86,7 @@ localStorage.setItem("orders",JSON.stringify(orders));
     // localStorage.setItem("orders",JSON.stringify(orders));
 }
 
-function details(key,value,index=null,indexkey=null){ 
+function details(key,value,index=null,indexkey=null){                   //New Address Inputs
 
  if(index==null&&indexkey==null){
          order[key]=value;
