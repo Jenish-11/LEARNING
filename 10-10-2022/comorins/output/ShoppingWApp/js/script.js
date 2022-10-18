@@ -42,28 +42,7 @@ function addDetails(key,value,index=null,indexkey=null){
          products[key]=value;
          products[key]=value;
     }
-    else if(!products[key]&&index!=null&&indexkey==null&&[key!='personalDetails']){
-        products[key]=[]
-    }
-   else if(indexkey==null&& index!=null){
-    products[key][index]=value;
-   }
- 
-   else if(key!=null&&indexkey!=null&&index!=null){
-        if(!products[key]){
-            products[key]=[]
-        }
-        if(!products[key][index]){
-            products[key][index]={};}
-            products[key][index][indexkey]=value;
-     }
-    else if([key=='personalDetails']){
-        if(!products[key]){
-        products[key]={};
-        products[key][indexkey]=value;
-        
-
-     }}
+    
      products.pic=data;
     
 display();
