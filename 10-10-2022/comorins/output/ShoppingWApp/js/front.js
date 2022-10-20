@@ -1,3 +1,4 @@
+
 function disp(){                                        //display the products in indexpage dynamically                   
     let list =JSON.parse(localStorage.getItem("items"));
     console.log(list);

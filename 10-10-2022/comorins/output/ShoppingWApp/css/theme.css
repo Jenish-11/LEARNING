@@ -2,6 +2,10 @@
 /*  */
 header{
     background-color: rgb(10, 81, 187);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
 }
 nav{
    
@@ -129,4 +133,7 @@ li{
     font-size: 14px;
     margin-left: 14%;
     font-weight: 400;
+}
+.specs_list li{
+    list-style:square !important;
 }

@@ -19,7 +19,7 @@ let logins=JSON.parse(localStorage.getItem("logins"));
         if(namee==list[i].id){
        ele="<li class='l1'>"+list[i].title+"</li>"+"<li class='l2'>"+list[i].name+"</li>"+"<li class='l3'>"+"₹"+list[i].rate+"<span class='disc ml-5'>"+list[i].discounts+"% off"+"</span>"+"</li>"+"<li class='l4'>"+list[i].rating+"★"+"</li>"+"<h5 class='mt-3'>Available Offers</h5>"+"<li class='l5 of'>"+list[i].offer1+"</li>"+"<li class='l5 of'>"+list[i].offer2+"</li>"+"<li class='l5 of'>"+list[i].offer3+"</li>"+"<li class='l5 of'>"+list[i].offer4+"</li>"+"<li class='l5 of'>"+list[i].offer5+"</li>"+"<li class='l6'>"+"<span class='details'>Describtion</span><li class='det'>"+list[i].details+"</li></li>"
  if(list[i].spec1){
-    specs=`<span fs-2>Specifications<span><li>${list[i].spec1}</li><li>${list[i].spec2}</li><li>${list[i].spec3}</li><li>${list[i].spec4}</li><li>${list[i].spec5}</li>`;
+    specs=`<span fs-2 >Specifications<span><ul class="specs_list"><li>${list[i].spec1}</li><li>${list[i].spec2}</li><li>${list[i].spec3}</li><li>${list[i].spec4}</li><li>${list[i].spec5}</li></ul>`;
     document.getElementById("specs").innerHTML=specs;
  }
     document.querySelector("#im").setAttribute("src",list[i].pic);

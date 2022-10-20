@@ -10,11 +10,11 @@ let logers_array=JSON.parse(localStorage.getItem("logers"));
 let logins=JSON.parse(localStorage.getItem("logins"));
 for(let i=0; i<logers_array.length; i++){
     if(logers_array[i].name==logins[0].name){       
-        ele= ele+"<span>Welcome !</span><h2 classs=''>"+logers_array[i].name+"</h2><h6><span>ph-</span>"+logers_array[i].number+"</h6><h6><span class''> Address :  </span><span class=''>"+logers_array[i].ad1+"</span><span>, "+logers_array[i].ad2+"</span><span>, "+logers_array[i].ad3+"</span></h6>";
-        document.getElementById("gk").innerHTML=ele;
+        ele="<span>Welcome !</span><h2 classs=''>"+logers_array[i].name+"</h2><h6><span>ph-</span>"+logers_array[i].number+"</h6><h6><span class''> Address :  </span><span class=''>"+logers_array[i].ad1+"</span><span>, "+logers_array[i].ad2+"</span><span>, "+logers_array[i].ad3+"</span></h6>";
+       
 }
     else{}
-}
+} document.getElementById("gk").innerHTML=ele;
 }
 displ();
 let order={
