@@ -23,7 +23,7 @@ let logins=JSON.parse(localStorage.getItem("logins"));
     document.getElementById("specs").innerHTML=specs;
  }
     document.querySelector("#im").setAttribute("src",list[i].pic);
-    if(logins[0]){
+    if(logins&&logins[0]){
     ele2="<a href='third.html?name="+list[i].id+"' id='ad' onclick='cart("+i+")'> <button class='px-5 py-3 d-inline but atc' >ADD TO CART</button></a> <a href='placeorder.html?name="+list[i].id+"' id='ad2'><button class='px-5 py-3 float-right d-inline but bn' onclick='add_orders("+i+")'>BUY NOW</button></a>"
    } 
    else{

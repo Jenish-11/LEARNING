@@ -5,14 +5,14 @@ let person_details={
  
 };
 function ls(){    
-    let a;                                                  //store signup persons datas
+    let a=true;                                                  //store signup persons datas
     if(! localStorage.getItem("logers")){
         localStorage.setItem("logers",JSON.stringify([]));
     }
 
     let logers =JSON.parse(localStorage.getItem("logers"));
     for(let i=0; i<logers.length;i++){
-       if(logers[i].email!=person_details.email){
+       if(logers[i].email!=person_details.email||logers[0]==null){
         a=true}
         else{
             a=false

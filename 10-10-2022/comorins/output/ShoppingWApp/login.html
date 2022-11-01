@@ -146,14 +146,14 @@ form{
     }
     persons_details=person_details;
 
-display();
+// display();
         
 }
-function display(){
+// function display(){
 
-    document.getElementById("nme").innerHTML=JSON.stringify(person_details);
+//     document.getElementById("nme").innerHTML=JSON.stringify(person_details);
   
-}
+// }
 localStorage.setItem("logins",JSON.stringify([]));
 function ms(){                                                              //it is the funtion to compare login id to sign in id
     let logers =JSON.parse(localStorage.getItem("logers"));
@@ -171,6 +171,7 @@ function ms(){                                                              //it
             // b=true;
         }
         else{
+          // alert("Check Your Email ID and Password");
             console.log("false");
         }
     }

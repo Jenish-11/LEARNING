@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .activ{
+            color:blue !important;
+        }
+    </style>
+</head>
+<body>
+    <p id="d"> jenish</p>
+    <div id="wraper"><h1>Hi welcome</h1></div>
+    <button id="change">ClickMe</button>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script type="text/javascript">
+        // $("#d").click(function(){
+        //     // alert("jal")
+        //     console.log("Hi");
+        // });
+        // $("#change").click(function(){
+        //     $("h1").html(`<p>hi Jenish How are You</p>`)
+        // });
+        $("#change").dblclick(function(){
+            $("h1").html(`<p>hi go out</p>`)
+            $("h1").css("color","red")
+            $("#wraper h1").toggleClass("activ")
+
+        });
+        $("#change").on("click",function(){
+            $("h1").html(`<p>hi Jenish How are You</p>`)
+        })
+        $("#d").on({
+           "click":function(){
+            $(this).css("color","red")
+        },
+            "mouseenter":function(){
+            $(this).css("background","green") 
+            },
+            "mouseleave":function(){
+            $(this).css("background","none") 
+            },
+    
+    
+    });
+    </script>
+</body>
+</html>

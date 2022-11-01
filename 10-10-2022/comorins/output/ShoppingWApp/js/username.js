@@ -57,10 +57,11 @@ let no=0;
     function nof(){                                                                 //display no of products in carts
 
         let logers =JSON.parse(localStorage.getItem("logers"));
+        if(logins[0]){
         for(let i=0; i<logers.length;i++){
             if(logins[0].email==logers[i].email) {
            no= logers[i].carts.length;}
-        }
+        }}
        
         console.log("hjkl"+no);
     }

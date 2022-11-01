@@ -136,4 +136,17 @@ li{
 }
 .specs_list li{
     list-style:square !important;
+}.footer_icon{
+    align-self: center;
 }
+/* .footer2{ */
+    /* padding-top: 2%; */
+/* } */
+.footer_sec2 li{
+    display: inline-block;
+    /* padding-left: 5%; */
+}
+.maxw{
+    max-height: 500px;
+}
+/* footer */

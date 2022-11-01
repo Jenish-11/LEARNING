@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tim"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<style>
+    body{
+        font-size: 'Times';
+    }
+    header{
+        background: linear-gradient(to left, #05133b 0%, #00ccff 100%);
+        /* height: 250px; */
+        color: aliceblue;
+        font-family: 'Times New Roman';
+    }
+    .obj{
+        width: 100px;
+        font-size: 20px;
+        width: 550px;
+    }
+    li{
+        font-family: 'Times New Roman';
+        padding: 1%;
+    }
+    .qual1{
+        font-size: 25px;
+        padding: 0%;
+        list-style: none;
+    }
+    span{
+        font-size: 20px;
+    }
+    .ph{
+        list-style: url(images/pho.png);
+    }
+    .emi{
+        list-style: url(images/email.png);
+    }
+    .lin{
+        list-style: url(images/linkedin.png);
+    
+    }
+    .loc{
+        list-style: url(images/location.png);
+    }
+    .line{
+        border-right: 1px solid black;
+    }
+    .ed{
+        padding: 0%;
+    }
+    h3{
+        border: 10px solid #062931;
+        background-color: #062931;
+        color: white;
+        border-radius:25px;
+        /* padding-right: 0px; */
+    }
+    .b1{
+        background: #FCFCFC;
+        box-shadow: 0px 0px 20px 25px rgba(0, 0, 0, 0.1);
+        
+    }
+    th{
+        padding: 2% 2%;
+    }
+    td{
+        padding: 2% 2%;
+    }
+    table{
+        margin-top: 5%;
+    }
+</style>
+</head>
+<body class="container p-0 b1">
+    <header class="py-3 ">
+        <div class="row ">
+            <div class="col-2 p-4">
+                <img src="" alt="" id="img" class="w-100 profile">           
+            </div>
+            <div class="col-6 ">
+                <h1 id="Nam" class="ml-5">JENISH</h1>
+                <h2 id="rol" class="ml-5">MECHANICAL ENGINEER</h2>
+                <p id="objt" class="obj">To join well known IT organization to improve my skill          and knowledge and work for the growth of the organization
+                    </p>
+            </div>
+            <div class="col-4">
+                <li id="ph" class="mt-3 ph mr-5">8056669838</li>
+                <li id="em" class="emi mr-5">jenishkl21@gmail.com</li>
+                <li id="lin" class="lin">linkedin</li>
+                <li id="" class="loc"><h6 id="loca1" class="d-inline"> , TamilNadu</h6><h6 id="loca2" class="d-inline ml-2"> , India</h6>
+                <h6 id="loca3" class="pin ml-2 d-inline">629172</h6><h6 id="pin" class="ml-4"></h6></li>
+            </div>
+        </div>
+    </header>
+    <div class="section1">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-6 line">
+                    <div class="col-12">
+                        <img src="images/skill.png" class="mb-2" alt="im"><h3 class="d-inline px-4 ml-2">Technical Skills</h3>
+                        <ul id="skil" class="mt-2 ml-3"></ul>
+
+                    </div>
+                    <div class="col-12">
+                        <img src="images/details.png" class="mb-2" alt="im"><h3 class="d-inline px-4 ml-2">Personal Details</h3>
+                        <ul id="pd" class="mt-2 ml-3"></ul>
+                    </div>
+                    <div class="col-12">
+                        <img src="images/certificate.png" class=" mb-2" alt="im"><h3 class="d-inline px-4 ml-2">Certifications</h3>
+                        <table border="1" width="100%">
+                            <tr id="p">
+                            <th>CourseName</th>
+                            <th>Duration</th>
+                            <th>Institute</th>
+                            <th>place</th>
+                        </tr>
+                        <tbody id="ggg"></tbody> 
+                    </table>
+                    </div>
+                    <div class="col-12">
+                        <h3 class="px-4 ml-2 mt-5">Aknowledgement</h3>
+                        <p id="akn" class="px-4">Hereby I, declare all the details given above are true to the best of my knowledge and will discharge my best efforts as an engineer to your association in every aspect</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-12">
+                        <img src="images/education.png" class="mb-2" alt="im"><h3 class="d-inline px-4 ml-2">Educational Qualifications</h3>
+                        <table border="1" width="100%">
+                                <tr id="p">
+                                <th>CourseName</th>
+                                <th>Year</th>
+                                <th>Institute</th>
+                                <th>percentage</th>
+                            </tr>
+                            <tbody id="g"></tbody> 
+                        </table>
+                    </div>
+                    <div class="col-12 mt-5">
+                         <img src="images/exper.png" class="mb-2" alt="im"><h3 class="d-inline px-4 ml-2">Work Experience</h3> 
+                         <table border="1" width="100%">
+                            <tr id="p">
+                            <th>Company Name</th>
+                            <th>Job Role</th>
+                            <th>JobDetails</th>
+                            <th>Duration</th>
+                        </tr>
+                        <tbody id="gg"></tbody> 
+                    </table>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <img src="images/projec.png" class="mb-2" alt="im"><h3 class="d-inline px-3 ml-2">Project Details</h3>
+                        <ul id="pro" class="mt-2 ml-4"></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section2">
+        <div class="row">
+            <div class="col-6">
+            </div>
+        </div>
+    </section>
+    <script src="js/disp2.js">
+      
+    </script>
+</body>
+</html>
