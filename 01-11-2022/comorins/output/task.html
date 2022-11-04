@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=164834;
+        var b=[1,6,4,8,3,4]
+        var c=0;
+        var d=0;
+        for(let i=0; i<b.length;i++){
+            if(b[i]%2==0){
+                c=b[i]/2;
+                for(let j=0; j<c; j++){
+                    document.write("*");
+                }
+            }
+            else if(b[i]%2!=0){
+                d=b[i]*2;
+                for(let k=0; k<d; k++){
+                    document.write("*");
+                }
+            }
+            else if(b[i]==0){
+                document.write("</br>")
+            }
+            document.write("</br>")
+        }
+    </script>
+</body>
+</html>

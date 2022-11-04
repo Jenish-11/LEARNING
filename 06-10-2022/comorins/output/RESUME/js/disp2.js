@@ -59,7 +59,7 @@ function display(){
             }console.log(ele1);
                 document.getElementById("g").innerHTML=ele1;
             }
-    let ele2="</tr>";
+    let ele2="<tr>";
             let list_array2=resume[0].experiance;
             if(list_array2!=null){
             console.log(list_array2);
@@ -111,19 +111,7 @@ function display(){
             document.getElementById("pro").innerHTML=ele5;}
 
  }}
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("rol").innerHTML=resume.role;
-    // document.getElementById("Nam").innerHTML=m;
+
 }
 display();
 // document.addEventListener("DOMContentLoaded", () =>{
